@@ -1,17 +1,21 @@
 import SwiftUI
 
+
 struct ContentView: View {
+    
     var body: some View {
         VStack {
-            Spacer()
-            Text("INSECURITY")
+            Text("INSECURITY APPS")
                 .font(.largeTitle)
-            Text("APPS")
-                .font(.largeTitle)
-            Image("memoji")
-            Text("How are you")
-            Spacer()
+                .fontWeight(.bold)
+            Image("memoji2")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .cornerRadius(10)
+                //.padding(40)
+
+            Text("Hi, do you feel sad again?")
         }
-        .background(Color(red: 0.9, green: 251, blue: 152))
     }
+    
 }
