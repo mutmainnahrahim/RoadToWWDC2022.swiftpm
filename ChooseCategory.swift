@@ -10,24 +10,35 @@
 import SwiftUI
 
 struct ChooseCategory: View {
+    let items = ["Job Insecurity","Financial Insecurity","Social Insecurity","Body Insecurity","Relationship Insecurity","Health Insecurity"]
+    
+    let layout = [
+        GridItem(.flexible(minimum: 500))
+    ]
+
     var body: some View {
         VStack {
-            Text("My Story")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .padding()
-            
             ScrollView {
-                Text("memoji2")
-                    .font(.body)
-                    .padding()
-            }
+                LazyVGrid(columns: layout, content: {
+                    ForEach(items, id: \.self) { item in
+                            Image(item)
+                                .resizable()
+                                .aspectRatio( contentMode: .fit)
+                                .border(Color.secondary)
+                                .cornerRadius(100)
+                                .padding(70)
+                            Text(item)
+                            .fontWeight(.bold)
+                            .font(.largeTitle)
+                            }
+                        })
+                }
         }
-        .padding([.top, .bottom], 50)
     }
 }
 
-struct StoryView_Previews: PreviewProvider {
+
+struct ChooseCategory_Previews: PreviewProvider {
     static var previews: some View {
         ChooseCategory()
     }

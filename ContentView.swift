@@ -11,11 +11,7 @@ struct ContentView: View {
             Image("memoji2")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .cornerRadius(10)
-                //.padding(40)
-
             Text("Hi, do you feel sad again?")
         }
     }
-    
 }
