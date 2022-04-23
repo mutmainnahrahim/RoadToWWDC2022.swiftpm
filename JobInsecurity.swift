@@ -11,9 +11,9 @@ struct JobInsecurity: View {
 
     var body: some View {
         VStack {
+            Image("Job")
             ScrollView {
-                Image("memoji")
-                Text("Saya hasdhkasdjkadadjh hjsahdakdjladndnadjkajdadla kdjahasjahaladaad. dshakjd ahdwjeka klaskaldad hjdhaueajka jskakslak")
+                Text("Wahyu (30) menggendong anaknya sambil mengamen sebagai badut di Jalan Pangeran Antasari, Jakarta Selatan, Sabtu (19/12/2020). Pria asal Bantul, Yogyakarta tersebut terpaksa menjadi pengamen badut untuk menghidupi keluarganya setelah kehilangan pekerjaan sebagai supir angkot di Ibu Kota karena terdampak pandemi COVID-19")
                     .font(.largeTitle)
 
             }
