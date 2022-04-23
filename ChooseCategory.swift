@@ -19,6 +19,10 @@ struct ChooseCategory: View {
     var body: some View {
         VStack {
             ScrollView {
+                Text("It's OK To Feel Insecure Sometimes")
+                Spacer()
+                Text("What’s make you insecure?")
+                    .fontWeight(.bold)
                 LazyVGrid(columns: layout, content: {
                     ForEach(items, id: \.self) { item in
                             Image(item)
@@ -26,7 +30,7 @@ struct ChooseCategory: View {
                                 .aspectRatio( contentMode: .fit)
                                 .border(Color.secondary)
                                 .cornerRadius(100)
-                                .padding(70)
+                                .padding(50)
                             Text(item)
                             .fontWeight(.bold)
                             .font(.largeTitle)

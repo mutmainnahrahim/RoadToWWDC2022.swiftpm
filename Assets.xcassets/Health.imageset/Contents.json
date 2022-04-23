@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "hidup_sebatang_kara_sampai_sakit-sakitan_nenek_di_kendari_ini_butuh_uluran_tangan.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
