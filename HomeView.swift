@@ -26,7 +26,7 @@ struct HomeView: View {
             
             Button(action: {
             }) {
-                Text("Click button below if you are insecure")
+                Text("Tap bar button below if you are insecure")
                     .font(.system(size: 25, weight: .bold, design: .default))
                     .padding()
                     .background(Color.green)
