@@ -11,9 +11,12 @@ struct HealthInsecurity: View {
 
     var body: some View {
         VStack {
+            Text("Health Insecurity")
+                .font(.system(size: 50, weight: .light, design: .serif))
+                .fontWeight(.bold)
             Image("Health")
             ScrollView {
-                Text("Mariati yang akrab disapa Manci oleh warga sekitar, nampak terkulai lemas di atas ranjang papan miliknya.Mariati mengungkapkan keluh kesahnya. Ia mengaku sudah tidak punya uang lagi untuk sekadar membeli makanan.Tidak adami makananku, sudah berapa hari ini saya tidak pergi mencari lagi, karena sakit, ungkapnya.Menurut salah seorang warga, Supratman, untuk memenuhi kehidupan sehari-hari, Mariati hanya bisa berharap belas kasih dan uluran tangan para dermawan.Usianya yang semkin tua dan kondisinya yang sakit-sakitan, membuat dirinya tak mampu lagi mencari nafkah dengan bekerja.Ini dia lagi sakit, sudah seminggu ini dia tidak ke mana-mana lagi, biasanya kan tiap hari duduk di pasar sana,. kata Supratman.Untung saja, dalam kondisi seperti ini, masih ada warga setempat yang peduli pada nasib Mariati.Ya, namanya juga orang tua, jadi suka sakit-sakitan. Untungnya masih ada bu RT dan warga di sini yang masih peduli, suka bawakan makanan, tambah Supratman.")
+                Text("\nMariati, who is familiarly called Manci by local residents, looks limp on her board bed. Mariati expresses her complaints. He admitted that he no longer had money to buy food. I didn't have my food, how many days had I not gone looking for it anymore, because I was sick, he said. According to one resident, Supratman, to fulfill his daily life, Mariati could only hope for a dozen love and the helping hand of the benefactors. His old age and sick condition made him no longer able to earn a living by working. Here he is again sick, this week he has not been anywhere anymore, usually he sits on the bench every day. market there. said Supratman. Fortunately, in conditions like this, there are still local residents who care about Mariati's fate. Fortunately, there are still Mrs. RT and residents here who still care, like to bring food, Supratman added.")
                     .font(.largeTitle)
 
             }
